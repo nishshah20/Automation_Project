@@ -1,7 +1,7 @@
 #!/bin/sh
+Name="Nishith Shah"
 DateTime=$(date '+%d%m%Y-%H%M%S')
 s3Bucket=upgrad-nishith
-Name="Nishith Shah"
 echo $Name
 sudo apt update -y
 sudo apt install apache2
